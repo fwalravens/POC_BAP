@@ -1,0 +1,5 @@
+{
+    "name":"test-app",
+    "short_name":"test-app",
+    "display":"standalone"
+}

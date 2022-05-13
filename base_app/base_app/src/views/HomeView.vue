@@ -4,6 +4,10 @@
     @click="loadForecasts">
       GET Forecasts
     </button>
+    <button 
+    @click="openPrinterDialog" style="display:block;margin: 0 auto;">
+      Print
+    </button>
     <table>
       <tr>
         <th>Datum</th>
@@ -47,6 +51,9 @@ export default {
           .catch(error=>{
             console.log(error)
           })
+    },
+    openPrinterDialog(){
+      window.print()
     }
   }
 }

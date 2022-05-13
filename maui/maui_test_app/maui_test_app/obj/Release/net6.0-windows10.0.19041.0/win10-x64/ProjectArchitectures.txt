@@ -1,0 +1,1 @@
+C:\Users\florw\Documents\BAP\maui\maui_test_app\maui_test_app\maui_test_app.csproj;x64
