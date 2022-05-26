@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-3MPQEOJ</Machine>
+    <WindowsUser>florw</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>57DE8A5B-B33D-4C22-AD14-834147178625</PackageIdentityName>
+    <PackageIdentityPublisher>CN=&quot;&lt;HierUwNaam&gt;&quot;</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\bin\x64\Release\net6.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\bin\x64\Release\net6.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\bin\x64\Release\net6.0-windows10.0.19041.0\win-x64\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\bin\x64\Release\net6.0-windows10.0.19041.0\win-x64\MauiBlazorTestApp.runtimeconfig.json">
+      <PackagePath>MauiBlazorTestApp.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\bin\x64\Release\net6.0-windows10.0.19041.0\win-x64\MauiBlazorTestApp.deps.json">
+      <PackagePath>MauiBlazorTestApp.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\apphost.exe">
+      <PackagePath>MauiBlazorTestApp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\.nuget\packages\microsoft.aspnetcore.components.webview.maui\6.0.300-rc.3.5667\lib\net6.0-windows10.0.19041\Microsoft.AspNetCore.Components.WebView.Maui.pri">
+      <PackagePath>Microsoft.AspNetCore.Components.WebView.Maui.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.300-rc.3.5667\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
+      <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.300-rc.3.5667\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
+      <PackagePath>Microsoft.Maui.Controls.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.300-rc.3.5667\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Xaml.pri">
+      <PackagePath>Microsoft.Maui.Controls.Xaml.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Core.Ref.win\6.0.300-rc.3.5667\ref\net6.0-windows10.0.19041\Microsoft.Maui.pri">
+      <PackagePath>Microsoft.Maui.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Essentials.Ref.win\6.0.300-rc.3.5667\ref\net6.0-windows10.0.19041\Microsoft.Maui.Essentials.pri">
+      <PackagePath>Microsoft.Maui.Essentials.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\Resources\Raw\AboutAssets.txt">
+      <PackagePath>AboutAssets.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\scopedcss\bundle\MauiBlazorTestApp.styles.css">
+      <PackagePath>wwwroot\MauiBlazorTestApp.styles.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\scopedcss\projectbundle\MauiBlazorTestApp.bundle.scp.css">
+      <PackagePath>wwwroot\MauiBlazorTestApp.bundle.scp.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\wwwroot\css\about.f2e47d3e.css">
+      <PackagePath>wwwroot\css\about.f2e47d3e.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\wwwroot\css\app.409370e1.css">
+      <PackagePath>wwwroot\css\app.409370e1.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\wwwroot\favicon.ico">
+      <PackagePath>wwwroot\favicon.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\wwwroot\index.html">
+      <PackagePath>wwwroot\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\wwwroot\js\about.c82d6da6.js">
+      <PackagePath>wwwroot\js\about.c82d6da6.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\wwwroot\js\about.c82d6da6.js.map">
+      <PackagePath>wwwroot\js\about.c82d6da6.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\wwwroot\js\about-legacy.540fbb81.js">
+      <PackagePath>wwwroot\js\about-legacy.540fbb81.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\wwwroot\js\about-legacy.540fbb81.js.map">
+      <PackagePath>wwwroot\js\about-legacy.540fbb81.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\wwwroot\js\app.9effcde3.js">
+      <PackagePath>wwwroot\js\app.9effcde3.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\wwwroot\js\app.9effcde3.js.map">
+      <PackagePath>wwwroot\js\app.9effcde3.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\wwwroot\js\app-legacy.6dfee0d1.js">
+      <PackagePath>wwwroot\js\app-legacy.6dfee0d1.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\wwwroot\js\app-legacy.6dfee0d1.js.map">
+      <PackagePath>wwwroot\js\app-legacy.6dfee0d1.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\wwwroot\js\chunk-vendors.7125eb37.js">
+      <PackagePath>wwwroot\js\chunk-vendors.7125eb37.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\wwwroot\js\chunk-vendors.7125eb37.js.map">
+      <PackagePath>wwwroot\js\chunk-vendors.7125eb37.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\wwwroot\js\chunk-vendors-legacy.4f71e95d.js">
+      <PackagePath>wwwroot\js\chunk-vendors-legacy.4f71e95d.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\wwwroot\js\chunk-vendors-legacy.4f71e95d.js.map">
+      <PackagePath>wwwroot\js\chunk-vendors-legacy.4f71e95d.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\sp\appiconfgSplashScreen.scale-100.png">
+      <PackagePath>appiconfgSplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\sp\appiconfgSplashScreen.scale-125.png">
+      <PackagePath>appiconfgSplashScreen.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\sp\appiconfgSplashScreen.scale-150.png">
+      <PackagePath>appiconfgSplashScreen.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\sp\appiconfgSplashScreen.scale-200.png">
+      <PackagePath>appiconfgSplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\sp\appiconfgSplashScreen.scale-400.png">
+      <PackagePath>appiconfgSplashScreen.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\f\OpenSans-Regular.ttf">
+      <PackagePath>OpenSans-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\obj\x64\Release\net6.0-windows10.0.19041.0\win-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\Shared\MainLayout.razor.css">
+      <PackagePath>Shared\MainLayout.razor.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\Shared\NavMenu.razor.css">
+      <PackagePath>Shared\NavMenu.razor.css</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\florw\.nuget\packages\microsoft.windowsappsdk\1.0.3\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.0.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.0</Name>
+      <Version>3.469.1654.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.0, MinVersion = 3.469.1654.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\florw\.nuget\packages\microsoft.windowsappsdk\1.0.3\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.0.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\florw\.nuget\packages\microsoft.windowsappsdk\1.0.3\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.0.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.0</Name>
+      <Version>3.469.1654.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.0, MinVersion = 3.469.1654.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\florw\.nuget\packages\microsoft.windowsappsdk\1.0.3\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.0.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\florw\.nuget\packages\microsoft.windowsappsdk\1.0.3\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.0.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.0</Name>
+      <Version>3.469.1654.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.0, MinVersion = 3.469.1654.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\florw\.nuget\packages\microsoft.windowsappsdk\1.0.3\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.0.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\florw\.nuget\packages\microsoft.windowsappsdk\1.0.3\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.0.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.0</Name>
+      <Version>3.469.1654.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.0, MinVersion = 3.469.1654.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\florw\.nuget\packages\microsoft.windowsappsdk\1.0.3\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.0.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

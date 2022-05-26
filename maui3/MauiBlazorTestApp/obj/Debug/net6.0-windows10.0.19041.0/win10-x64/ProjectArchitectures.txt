@@ -1,0 +1,1 @@
+C:\Users\florw\Documents\BAP\maui3\MauiBlazorTestApp\MauiBlazorTestApp.csproj;x64

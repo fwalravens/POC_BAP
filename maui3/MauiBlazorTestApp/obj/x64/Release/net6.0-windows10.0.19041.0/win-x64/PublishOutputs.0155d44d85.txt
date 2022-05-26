@@ -1,0 +1,3 @@
+C:\Users\florw\Desktop\Nieuwe map\MauiBlazorTestApp.pdb
+C:\Users\florw\Desktop\Nieuwe map\resources.pri
+C:\Users\florw\Desktop\Nieuwe map\MauiBlazorTestApp.exe
